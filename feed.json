@@ -1,0 +1,14 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "li blog",
+    "description": "",
+    "home_page_url": "https://luguo124.github.io/Publii",
+    "feed_url": "https://luguo124.github.io/Publii/feed.json",
+    "user_comment": "",
+    "icon": "https://luguo124.github.io/Publii/media/website/9.png",
+    "author": {
+        "name": "li"
+    },
+    "items": [
+    ]
+}
