@@ -3,7 +3,7 @@
     <title>li blog</title>
     <link href="https://luguo124.github.io/Publii/feed.xml" rel="self" />
     <link href="https://luguo124.github.io/Publii" />
-    <updated>2024-06-21T00:45:22+08:00</updated>
+    <updated>2024-06-21T00:49:14+08:00</updated>
     <author>
         <name>li</name>
     </author>
@@ -17,6 +17,7 @@
         <link href="https://luguo124.github.io/Publii/markdown-bei-wang-lu.html"/>
         <id>https://luguo124.github.io/Publii/markdown-bei-wang-lu.html</id>
         <media:content url="https://luguo124.github.io/Publii/media/posts/5/WX20240621-0045082x.png" medium="image" />
+            <category term="学习笔记"/>
 
         <updated>2024-06-21T00:25:05+08:00</updated>
             <summary>
@@ -634,6 +635,7 @@
         <link href="https://luguo124.github.io/Publii/zen-me-ba-apple-notes-ping-guo-bei-wang-lu-bian-cheng-yi-ge-wang-zhan.html"/>
         <id>https://luguo124.github.io/Publii/zen-me-ba-apple-notes-ping-guo-bei-wang-lu-bian-cheng-yi-ge-wang-zhan.html</id>
         <media:content url="https://luguo124.github.io/Publii/media/posts/4/WX20240621-0018152x.png" medium="image" />
+            <category term="学习笔记"/>
 
         <updated>2024-05-31T19:10:00+08:00</updated>
             <summary>
@@ -683,6 +685,7 @@
         <link href="https://luguo124.github.io/Publii/yong-notionda-jian-ge-ren-wang-zhan.html"/>
         <id>https://luguo124.github.io/Publii/yong-notionda-jian-ge-ren-wang-zhan.html</id>
         <media:content url="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0824332x.png" medium="image" />
+            <category term="学习笔记"/>
 
         <updated>2024-03-15T09:55:26+08:00</updated>
             <summary>
