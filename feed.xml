@@ -3,12 +3,331 @@
     <title>li blog</title>
     <link href="https://luguo124.github.io/Publii/feed.xml" rel="self" />
     <link href="https://luguo124.github.io/Publii" />
-    <updated>2025-09-08T15:08:28+08:00</updated>
+    <updated>2025-09-08T16:13:56+08:00</updated>
     <author>
         <name>li</name>
     </author>
     <id>https://luguo124.github.io/Publii</id>
 
+    <entry>
+        <title>Windows服务器部署：Axure Cloud for On-Premises Service</title>
+        <author>
+            <name>li</name>
+        </author>
+        <link href="https://luguo124.github.io/Publii/yi-tai-yun-fu-wu-qi-windowspian03axure-cloud-for-on-premises-service.html"/>
+        <id>https://luguo124.github.io/Publii/yi-tai-yun-fu-wu-qi-windowspian03axure-cloud-for-on-premises-service.html</id>
+
+        <updated>2025-09-08T15:55:47+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Axure Cloud for On-Premises Service v2.0.0.445 的安装与配置 系统需求：Installing Axure Cloud for Business&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="has-text-align-center wp-block-post-excerpt has-background has-accent-5-background-color has-medium-font-size">
+<p class="wp-block-post-excerpt__excerpt">Axure Cloud for On-Premises Service v2.0.0.445 的安装与配置</p>
+</div>
+<div class="entry-content alignfull wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<div class="lwptoc lwptoc-autoWidth lwptoc-inherit" data-smooth-scroll="1" data-smooth-scroll-offset="24" data-lwptoc-initialized="1">
+<div class="lwptoc_i">
+<div class="lwptoc_header"><strong class="lwptoc_title">Contents</strong> <span class="lwptoc_toggle"> <a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#" class="lwptoc_toggle_label" data-label="show">hide</a> </span></div>
+<div class="lwptoc_items lwptoc_items-visible">
+<div class="lwptoc_itemWrap">
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#an_zhuang" rel="nofollow"><span class="lwptoc_item_number">1</span> <span class="lwptoc_item_label">安装</span></a>
+<div class="lwptoc_itemWrap">
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#DB_zhun_bei" rel="nofollow"><span class="lwptoc_item_number">1.1</span> <span class="lwptoc_item_label">DB准备</span></a></div>
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#an_zhuang_zhu_yi_shi_xiang" rel="nofollow"><span class="lwptoc_item_number">1.2</span> <span class="lwptoc_item_label">安装注意事项</span></a></div>
+</div>
+</div>
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#pei_zhicustomsettingsjson" rel="nofollow"><span class="lwptoc_item_number">2</span> <span class="lwptoc_item_label">配置customsettings.json</span></a>
+<div class="lwptoc_itemWrap">
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#chang_jian_hui_diao_zheng_zi_duan" rel="nofollow"><span class="lwptoc_item_number">2.1</span> <span class="lwptoc_item_label">常见会调整字段</span></a></div>
+</div>
+</div>
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#qi_ta_pei_zhi" rel="nofollow"><span class="lwptoc_item_number">3</span> <span class="lwptoc_item_label">其他配置</span></a>
+<div class="lwptoc_itemWrap">
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#deng_lu_ye_mian_biao_ti_yuLogo_xiu_gai" rel="nofollow"><span class="lwptoc_item_number">3.1</span> <span class="lwptoc_item_label">登录页面标题与Logo修改</span></a></div>
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#pei_zhiSMTP" rel="nofollow"><span class="lwptoc_item_number">3.2</span> <span class="lwptoc_item_label">配置SMTP</span></a></div>
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#xiu_gai_shi_yong_ri_qi" rel="nofollow"><span class="lwptoc_item_number">3.3</span> <span class="lwptoc_item_label">修改试用日期</span></a></div>
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#ri_zhi_wen_jian" rel="nofollow"><span class="lwptoc_item_number">3.4</span> <span class="lwptoc_item_label">日志文件</span></a></div>
+</div>
+</div>
+<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#Axure_RP_1011_ben_de_ji_huo" rel="nofollow"><span class="lwptoc_item_number">4</span> <span class="lwptoc_item_label">Axure RP 10/11 本地激活</span></a></div>
+</div>
+</div>
+</div>
+</div>
+<h2 class="wp-block-heading"><span id="an_zhuang">安装</span></h2>
+<p>系统需求：<a href="https://docs.axure.com/axure-cloud/business/install-on-premises/">Installing Axure Cloud for Business On-Premises · Axure Docs</a></p>
+<ol class="wp-block-list">
+<li>Windows Server 2008 R2 or later
+<ul class="wp-block-list">
+<li>.NET Framework 4.7.2</li>
+<li>2 Ghz CPU (2 cores recommended)</li>
+<li>2 GB RAM (4GB Recommended)</li>
+</ul>
+</li>
+<li>Microsoft SQL Server 2008 or later / MySQL 5.7 or later</li>
+</ol>
+<p>官方最新安装包下载：<a href="https://axure.cachefly.net/Enterprise/AxureCloud-Setup.msi">Axure Cloud</a>（基本每月有更新，需要翻墙下载。）</p>
+<p>官方更新日志：<a href="https://www.axure.com/release-history/axure-cloud">Axure Cloud Release History – Axure</a></p>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h3 class="wp-block-heading"><span id="DB_zhun_bei">DB准备</span></h3>
+<pre class="wp-block-code"><code>-- 创建数据库
+CREATE DATABASE IF NOT EXISTS AxShare DEFAULT CHARSET utf8;
+-- 创建用户并授权
+CREATE USER 'AxDba'@'localhost' IDENTIFIED BY 'tbGjr1GkypqgvG';
+GRANT all privileges ON axshare.* TO 'AxDba'@'localhost';
+flush privileges;</code></pre>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h3 class="wp-block-heading"><span id="an_zhuang_zhu_yi_shi_xiang">安装注意事项</span></h3>
+<p>安装过程比较简单基本下一步就可以了，要输入激活码时，可以直接跳过。</p>
+<ol class="wp-block-list">
+<li>DB不是标准端口，在Hostname输入时带上端口，比如MySQL输入localhost:33060</li>
+<li>另外，此步骤需要输入root/sa帐号与密码，如果不是的话，需要有超级权限。否则在后面更新数据库步骤报错：Access denied; you need (at least one of) the SUPER privilege(s) for this operation。
+<ul class="wp-block-list">
+<li>MySQL 5.7/MariaDB 10.3的解决办法：</li>
+</ul>
+</li>
+</ol>
+<pre class="wp-block-code"><code>update mysql.user set super_priv='Y' where user='axuser';
+flush privileges</code></pre>
+<div class="wp-block-spacer" aria-hidden="true">
+<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/13/58e5e89d94615c9272079605b95526e4.png" alt="" width="1008" height="754" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/13/responsive/58e5e89d94615c9272079605b95526e4-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/13/responsive/58e5e89d94615c9272079605b95526e4-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/13/responsive/58e5e89d94615c9272079605b95526e4-md.png 768w ,https://luguo124.github.io/Publii/media/posts/13/responsive/58e5e89d94615c9272079605b95526e4-lg.png 1024w"></figure>
+</div>
+<h2 class="wp-block-heading"><span id="pei_zhicustomsettingsjson">配置customsettings.json</span></h2>
+<p>前提：先停止Axure Cloud Maintenance Service与Axure Cloud Web Site Service系统服务。</p>
+<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/13/14d9d25c48b4692c9cc6c188addfd9b4-2.png" alt="" width="652" height="31" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/13/responsive/14d9d25c48b4692c9cc6c188addfd9b4-2-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/13/responsive/14d9d25c48b4692c9cc6c188addfd9b4-2-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/13/responsive/14d9d25c48b4692c9cc6c188addfd9b4-2-md.png 768w ,https://luguo124.github.io/Publii/media/posts/13/responsive/14d9d25c48b4692c9cc6c188addfd9b4-2-lg.png 1024w"></figure>
+<p>默认安装目录 C:\Program Files\Axure\Share9\site 中，有</p>
+<ul class="wp-block-list">
+<li>appsettings.json：默认配置文件，不需要修改；</li>
+<li>customsettings.json：本次修改内容，编辑时要注意结尾的【,】</li>
+</ul>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<p>包含所有可能字段的示例文件：</p>
+<pre class="wp-block-code"><code>{
+  "SessionEncryptionKey": "?H2!h=cmK7%BQ_WejM!YyzvTe3R%#Tfs",
+  "RootStoragePath": "C:\\ProgramData\\AxureShare\\data",
+  "DbDialect": "MySql",
+  "ConnectionStrings": {
+    "ApplicationServices": "Data Source=123.456.789.10;Database=axshare;User Id=axshare_user;password=123456"
+  },
+  "MaxFileSize": 1000000000,
+  "GenerationTimeoutSeconds": 2700,
+  "urls": "http://*:80;https://*:443",
+  "MatchProtocolMode": "false",
+  "Kestrel": {
+    "Certificates": {
+      "Default": {
+        "Path": "C:\\Program Files\\Axure\\Share9\\site\\my-pfx-file.pfx",
+        "Password": "123456"
+      }
+    },
+    "Endpoints": {
+      "Https": {
+        "Url": "https://*:443"
+      }
+    }
+  },
+  "AxShareHost": "ux.sunsetsolar.com",
+  "AxSitesPrototypeDomain": ".ux.sunsetsolar.com",
+  "ShowExceptionDetails": "true",
+  "EnablePlugins": "true",
+  "EnableBetaFeatures": "true"
+}</code></pre>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h3 class="wp-block-heading"><span id="chang_jian_hui_diao_zheng_zi_duan">常见会调整字段</span></h3>
+<ul class="wp-block-list">
+<li>RootStoragePath：为文档存储目录，需要备份目录；子目录是应用在管理不要去动，另外，此目录要注意NTFS权限，应用服务没有读写权限时，会出错。</li>
+<li>MatchProtocolMode：为false时，强制将http跳转到https</li>
+<li>监听端口和https配置<br>a) 不使用nginx：按照示例文件配置就可以了，证书需要是pfx格式，同时也要配置私钥密码；后续更新不方便。<br>b) 使用nginx（在nginx启用https）：customsettings.json 配置为</li>
+</ul>
+<pre class="wp-block-code"><code>  "urls": "http://*:8080",
+  "MatchProtocolMode": "true",
+  "Kestrel": {
+    "Endpoints": {
+      "Http": {
+        "Url": "http://*:8080"
+      }
+    }
+  },
+  "AxShareHost": "rp.y.z",
+  "EnableBetaFeatures": "true"</code></pre>
+<ul class="wp-block-list">
+<li>限制访问域名：”AxShareHost”: “rp.y.z”</li>
+<li>开启测试功能：”EnableBetaFeatures”: “true”</li>
+<li>其他字段：使用nginx时，一般用不到。
+<ul class="wp-block-list">
+<li>官方支持文档：<a href="https://docs.axure.com/axure-cloud/business/custom-settings-json/">Axure Cloud for Business On-Premises customsettings.json · Axure Docs</a></li>
+<li>网友整理文档：<a href="https://www.besalt.top/article/p014">AxureCloud配置文件详解（域名 HTTPS 插件） | 盐袋子</a></li>
+</ul>
+</li>
+</ul>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<p>这是我的配置文件内容：</p>
+<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/13/ed392c2a2ab28af24460b7e75b6432df.png" alt="" width="652" height="358" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/13/responsive/ed392c2a2ab28af24460b7e75b6432df-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/13/responsive/ed392c2a2ab28af24460b7e75b6432df-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/13/responsive/ed392c2a2ab28af24460b7e75b6432df-md.png 768w ,https://luguo124.github.io/Publii/media/posts/13/responsive/ed392c2a2ab28af24460b7e75b6432df-lg.png 1024w"></figure>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h2 class="wp-block-heading"><span id="qi_ta_pei_zhi">其他配置</span></h2>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h3 class="wp-block-heading"><span id="deng_lu_ye_mian_biao_ti_yuLogo_xiu_gai">登录页面标题与Logo修改</span></h3>
+<ol class="wp-block-list">
+<li>后台配置页面设置 Organization Name 参数</li>
+<li>通过关键字在近2M wwwroot\app\assets\index-xxxxxx.js 文件里查找修改就是了。
+<ol class="wp-block-list">
+<li>登录页提示【Sign in to Axure Cloud】的替换：查找 form-title login-title</li>
+<li>登录页脚 【© 2002-2024 Axure Software Solutions, Inc. | www.axure.com/patents】的替换：查找 axure-copyright-link 就是此处内容</li>
+<li>Logo移除：查找 0 0 50 12 ，移除 (“path”,{attrs:{d:””}}) d中数据。</li>
+<li>查找 get-desktop-app-button ，将后 e.desktopUrl 替换成 “/”</li>
+<li>试用到期提示底栏太高：index-DvmtrUvi.css，查找【ax-footer-notification】改为【min-height:0;padding-top:0;padding-bottom:0】</li>
+</ol>
+</li>
+</ol>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h3 class="wp-block-heading"><span id="pei_zhiSMTP">配置SMTP</span></h3>
+<p>登录WEB后台，配置SMTP就可以了，在Axure Cloud中非常重要，会自动向新用户发送邮件设置密码，以及密码找回。</p>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h3 class="wp-block-heading"><span id="xiu_gai_shi_yong_ri_qi">修改试用日期</span></h3>
+<p>Axure Cloud用户默认可以试用60天，通过修改数据库的 axshare_user.TrialStartDate 值为未来日期，实现超长试用（无功能区别）。</p>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h3 class="wp-block-heading"><span id="ri_zhi_wen_jian">日志文件</span></h3>
+<p>在C:\ProgramData\Axure\Share\logs目录的日志文件，看到报错里有D:\a\1路径，暂时不知道怎么解决，没有D盘时，添加D盘方法。</p>
+<pre class="wp-block-code"><code>if not EXIST d:\ subst d: c:\d_subst</code></pre>
+<div class="wp-block-spacer" aria-hidden="true"> </div>
+<h2 class="wp-block-heading"><span id="Axure_RP_1011_ben_de_ji_huo">Axure RP 10/11 本地激活</span></h2>
+<ol class="wp-block-list">
+<li>正常下载与安装 https://www.axure.com/release-history/</li>
+<li>启动后，点击共享激活，自动打开网页，输入授权码：cc020a2f1fb346acb00d5ffcb0c7bb5b</li>
+<li>回到 rp 就是激活状态，后面是步骤是关键，这也是为什么是单机激活原因。</li>
+<li>回到自动打开网页，点 copy code 按钮：
+<ul class="wp-block-list is-style-default">
+<li>
+<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/13/68e915ae7ecbf777290e9f93dfc585ca.png" alt="" width="546" height="479" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/13/responsive/68e915ae7ecbf777290e9f93dfc585ca-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/13/responsive/68e915ae7ecbf777290e9f93dfc585ca-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/13/responsive/68e915ae7ecbf777290e9f93dfc585ca-md.png 768w ,https://luguo124.github.io/Publii/media/posts/13/responsive/68e915ae7ecbf777290e9f93dfc585ca-lg.png 1024w"></figure>
+</li>
+</ul>
+</li>
+<li>将剪切板的 code 信息复制保存下载，为了避免以后授权码失效，可以使用这个 code 进行重新激活。</li>
+<li>让这个 code 一直有效的方法：hosts 屏蔽 www.axure.com 域名。
+<ul class="wp-block-list">
+<li>在 C:\Windows\System32\drivers\etc\hosts 文件中新增行：</li>
+</ul>
+</li>
+</ol>
+<pre class="wp-block-code"><code>127.0.0.1 www.axure.com</code></pre>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Axure Cloud本地部署（On-Premises）：支持Axure RP9和RP11团队协作使用</title>
+        <author>
+            <name>li</name>
+        </author>
+        <link href="https://luguo124.github.io/Publii/axure-cloudben-di-bu-shuon-premisesjiao-chengzhi-chi-axure-rp9he-rp11tuan-dui-xie-zuo-shi-yong.html"/>
+        <id>https://luguo124.github.io/Publii/axure-cloudben-di-bu-shuon-premisesjiao-chengzhi-chi-axure-rp9he-rp11tuan-dui-xie-zuo-shi-yong.html</id>
+
+        <updated>2025-09-08T15:53:13+08:00</updated>
+            <summary>
+                <![CDATA[
+                    01 Axure Cloud的官方教程 Axure官方本来就是支持本地部署的，也有提供对应是本地部署教程，只不过是英文版的，如果需要查看原文，可以访问如下地址。 https://docs.axure.com/axure-cloud/business/install-on-premises 完成了本地部署之后，有一些自定义的配置项，可以通过修改customsettings.json这个文件实现，具体的配置项和修改方式，可以查看这个链接。 https://docs.axure.com/axure-cloud/business/custom-settings-json 一图讲清操作步骤 本地部署安装包只能安装在Windows系统上，可以安装在公司的某个Windows电脑上，通过局域网访问；也可以安装在Windows服务器上，通过公网访问。如果需要发布到公网，提供给其他人访问使用，建议可以去云服务市场买一个Windows服务器。 Windows服务器的推荐配置是： 如果是Mac电脑需要远程连接Windows服务器，可以看这一篇教程：云服务器 使用&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 id="toc-1" class="jltoc--item">01 Axure Cloud的官方教程</h2>
+<p>Axure官方本来就是支持本地部署的，也有提供对应是本地部署教程，只不过是英文版的，如果需要查看原文，可以访问如下地址。</p>
+<p>https://docs.axure.com/axure-cloud/business/install-on-premises</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/602c0f1c-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>完成了本地部署之后，有一些自定义的配置项，可以通过修改customsettings.json这个文件实现，具体的配置项和修改方式，可以查看这个链接。</p>
+<p>https://docs.axure.com/axure-cloud/business/custom-settings-json</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/61767ede-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<h2 id="toc-2" class="jltoc--item">02 具体操作步骤</h2>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/62821900-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>一图讲清操作步骤</p>
+<h3>1. 准备Windows服务器</h3>
+<p>本地部署安装包只能安装在Windows系统上，可以安装在公司的某个Windows电脑上，通过局域网访问；也可以安装在Windows服务器上，通过公网访问。如果需要发布到公网，提供给其他人访问使用，建议可以去云服务市场买一个Windows服务器。</p>
+<p>Windows服务器的推荐配置是：</p>
+<ul>
+<li>2核4G以上</li>
+<li>30G以上的剩余磁盘空间</li>
+<li>Windows Server的版本建议在2016以上</li>
+</ul>
+<p>如果是Mac电脑需要远程连接Windows服务器，可以看这一篇教程：云服务器 使用 RDP 文件登录 Windows 实例-操作指南-文档中心-腾讯云</p>
+<p>在设置共享文件夹的时候遇到了一个问题，就是在Windows服务器中打不开共享文件夹，找了很多资料都没有发现什么解决方案。但是无意中试了一下，将共享的文件的名称由中文改成了全英文就可以打开，所以这个踩坑点要注意。使用英文作为共享文件夹的名称。</p>
+<h3>2.安装Mysql</h3>
+<p>Mysql需要5.7以上，然后安装教程可以看这篇 在 Windows 上安装 MySQL</p>
+<p>需要记住Mysql的管理员密码，是自己设置的，而登录账号则是root。</p>
+<figure class="aligncenter"><img  src="https://image.woshipm.com/2025/02/25/6329aba2-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure><figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/63d80c38-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/64a3ec5e-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>如果需要使用数据库管理工具连接Mysql，可以参考这篇教程 连接 MySQL 数据库</p>
+<p>本地远程连接服务器的数据库的时候，可能会失败，主要原因是两个方面：</p>
+<ol>
+<li>服务器没有开放出入规则的端口，导致一些端口是不能远程访问的；</li>
+<li>Mysql没有远程连接的权限，需要给root账号开权限</li>
+</ol>
+<h3>3.安装Axure Cloud本地部署的安装包</h3>
+<p>Axure Cloud本地的部署的安装包可以从Axure官网的链接中下载，Axure会不定期的更新内容，随着新内容的发布可能会导致之前的破解方式失效或者是不兼容更早的Axure版本。所以建议不要轻易升级最新版本，老版本能用那就一直用着就好了。</p>
+<p>在当前时间点（2025年2月份）推荐下载2.0.0.441版本。</p>
+<p>官方最新的安装包下载地址： https://axure.cachefly.net/Enterprise/AxureCloud-Setup.msi</p>
+<p>下载好了Axure Cloud本地安装包后，直接双击安装，然后按默认的路径安装，一直下一步下一步即可。</p>
+<figure class="aligncenter"><img  src="https://image.woshipm.com/2025/02/25/65a62bb2-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure><figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/6681abe2-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/673d2160-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>安装完成之后，点击Finish之后，就会自动打开浏览器，进入初始化页面。如果浏览器没有弹出对应的页面，也可以手动在浏览器中输入这个地址 http://localhost/app/setup</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/67fd2230-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>如果提示要升级配置，直接点击升级即可</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/68d27944-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>先创建数据库，可以直接点击Next</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/6978b6c4-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>数据库创建成功</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/6a2a8a3e-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>创建数据库，初始化数据库表后，还需要设置一个数据库的默认用户</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/6ad42fee-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>注意，在设置密码的时候会有一些要求，例如说：密码不能和账号一样，密码也不能有连续的数字等，这个自己按规则来配置即可。</p>
+<p>设置完了账号密码之后，就会跳转到新页面，就可以输入刚刚预设好的账号密码，登录之后即可进入到后台管理页面。</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/6ba087ec-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>登录之后，可以查看到目前独立部署的账号是有60天的试用期的，如果60天之后就会到期没法用了，所以需要通过一些方式来“解决”，达到可以长期使用的目的。</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/6c68a75e-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>补丁文件：</p>
+<p><img loading="lazy" src="https://i-blog.csdnimg.cn/blog_migrate/db3c425260c6b9c9cf1ece2b88f20053.png" alt="image.png" data-is-external-image="true"><br><br>打开任务管理器，停止 AxureCloudWebSiteService 服务<br><br>将 破解补丁 覆盖至 C:\Program Files\Axure\Share9\site<br><br>打开任务管理器，打开 AxureCloudWebSiteService 服务<br><br>刷新网页，无需License，已破解为永久版</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/6f553d6a-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>如果出现了“Assign Seat”就表示成功了</p>
+<figure class="aligncenter"><img loading="lazy"  src="https://image.woshipm.com/2025/02/25/70011144-f331-11ef-8dcc-00163e09d72f.png" data-action="zoom" data-is-external-image="true"></figure>
+<p>核对一下安装的Axure Cloud版本是不是441</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>LEDE 检测到离线安装包含非法关键词!!!</title>
+        <author>
+            <name>li</name>
+        </author>
+        <link href="https://luguo124.github.io/Publii/lede-jian-ce-dao-chi-xian-an-zhuang-bao-han-fei-fa-guan-jian-ci.html"/>
+        <id>https://luguo124.github.io/Publii/lede-jian-ce-dao-chi-xian-an-zhuang-bao-han-fei-fa-guan-jian-ci.html</id>
+
+        <updated>2025-09-08T15:41:55+08:00</updated>
+            <summary>
+                <![CDATA[
+                    众所周知的原因，Lede软路由Openwrt的软件中心现已不再提供一些插件，在我们进行安装离线插件时提示,检测到离线安装包:v删2r删ay_2.3.7.tar.gz 含非法关键词!!!，我们看下解决方法： 众所周知的原因，Lede软路由Openwrt的软件中心现已不再提供一些插件，在我们进行安装离线插件时提示,检测到离线安装包:v删2r删ay_2.3.7.tar.gz 含非法关键词!!!，我们看下解决方法： LEDE后台——系统——管理权——SSH访问——接口选择LAN——保存并应用 使用xshell或putty等类似SSH软件登录LEDE，并输入以下命令后 通过执行上面的命令后，进行离线插件的安装，你会发现，神奇的插件又能装上了！祝愉快使用。
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>众所周知的原因，Lede软路由Openwrt的软件中心现已不再提供一些插件，在我们进行安装离线插件时提示,检测到离线安装包:v删2r删ay_2.3.7.tar.gz 含非法关键词!!!，我们看下解决方法：</p>
+<p>众所周知的原因，Lede软路由Openwrt的软件中心现已不再提供一些插件，在我们进行安装离线插件时提示,检测到离线安装包:v删2r删ay_2.3.7.tar.gz 含非法关键词!!!，我们看下解决方法：</p>
+<h4>开启SSH</h4>
+<p>LEDE后台——系统——管理权——SSH访问——接口选择LAN——保存并应用</p>
+<h4>登录SSH</h4>
+<p>使用xshell或putty等类似SSH软件登录LEDE，并输入以下命令后</p>
+<ol>
+<li>sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh  </li>
+</ol>
+<h4>安装插件</h4>
+<p>通过执行上面的命令后，进行离线插件的安装，你会发现，神奇的插件又能装上了！祝愉快使用。</p>
+<p><img loading="lazy" src="https://saas.bk-cdn01.com/t/db667baf-af82-4a2d-9a2b-3ad3e10f91bc/u/2b560aea-d0b1-4256-9b8c-2e66f527b75d/1633801157278" data-is-external-image="true"></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>macOS 10.15 Catalina xxx.app已损坏，无法打开，你应该将它移到废纸篓解决方法</title>
         <author>
@@ -1147,335 +1466,6 @@
 <p> </p>
 <pre><span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">很想拥有自己的个人网站？从此你就再也没借口了</span></pre>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>用Notion搭建个人网站</title>
-        <author>
-            <name>li</name>
-        </author>
-        <link href="https://luguo124.github.io/Publii/yong-notionda-jian-ge-ren-wang-zhan.html"/>
-        <id>https://luguo124.github.io/Publii/yong-notionda-jian-ge-ren-wang-zhan.html</id>
-        <media:content url="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0824332x.png" medium="image" />
-            <category term="学习笔记"/>
-
-        <updated>2024-03-15T09:55:26+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0824332x.png" alt="" />
-                    域名 我使用的是阿里云，可根据喜好自行选择。 接下来就是如何转移到Cloudflare和部署了，过程涉及到几个网页的跳转操作，比较复杂，我将它分为几个小节点一步步来。 进入Cloudflare官网，此处省略注册环节。 （我自己的域名一开始就被误导写了www以致于每次访问一定要加上https://www.前缀，所以你只想要简简单单最原始的域名访问地址就直接填@） 【这里由于账号不能重新创建一次Workers的操作，所以模拟还原演练操作，部分操作截图指引和你们不同，大家重点理解意会文字描述】 点击“创建服务” 左侧代码区块，Ctrl+A全选删除，刚才复制好的代码Ctrl+V粘贴，然后点击“保存并部署” 恭喜你完成了所有操作，赶紧试试看使用自己的域名访问到Notion的公开页面吧。
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0824332x.png" class="type:primaryImage" alt="" /></p>
-                <h2 id="h_598475698_1" data-into-catalog-status="">域名</h2>
-<p data-pid="dBAjVSbe">我使用的是<strong>阿里云</strong>，可根据喜好自行选择。</p>
-<h4 class="RichText-LinkCardContainer"><a target="_blank" href="https://link.zhihu.com/?target=https%3A//wanwang.aliyun.com/%3Fspm%3D5176.21213303.1158081.1.119153c91pN2XQ%26scm%3D20140722.S_card%40%40%25E5%2595%2586%25E5%2593%2581%40%40212429.S_cardgbdt.ID_card%40%40%25E5%2595%2586%25E5%2593%2581%40%40212429-RL_%25E5%259F%259F%25E5%2590%258D-OR_ser-V_2-P0_0" data-draft-node="block" data-draft-type="link-card" data-text="阿里云企航(原万网)_域名注册_工商财税_知识产权_资质备案_智能设计_网站建设-阿里云" class="LinkCard new css-1vqsdx1" data-image="https://pic1.zhimg.com/v2-035732dd3fa46a854f0fb43e4f7c5880_ipico.jpg" data-image-width="620" data-image-height="620" data-za-detail-view-id="172" rel="noopener"><span style="color: #000000;"><strong><span class="LinkCard-image"><img loading="lazy" src="https://pic1.zhimg.com/v2-035732dd3fa46a854f0fb43e4f7c5880_ipico.jpg" alt="" data-is-external-image="true"></span></strong></span></a></h4>
-<h4 data-pid="deewzLHO"><span style="color: #000000;"><strong>域名购买</strong></span>网站：https://wanwang.aliyun.com/</h4>
-<figure data-size="normal"></figure>
-<h2 id="h_598475698_4" data-into-catalog-status="">Notion页面设置</h2>
-<ul>
-<li data-pid="txfsbkHc">选择你要分享出去的页面，打开<strong>“Share to web”</strong>，页面的一些设置根据需要调整（以后你随时可以修改），我这里是全部关闭了。</li>
-<li data-pid="Falai9s9">然后<strong>“Copy link”</strong>复制链接出来备用。</li>
-</ul>
-<figure data-size="normal">
-<figcaption>
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240315-1001092x.png" alt="" width="2138" height="1626" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240315-1001092x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240315-1001092x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240315-1001092x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240315-1001092x-lg.png 1024w"></figure>
-<br>Notion分享页面</figcaption>
-</figure>
-<h2 id="h_598475698_5" data-into-catalog-status="">转移到Cloudflare和部署</h2>
-<p data-pid="Sju3MTy_">接下来就是如何<strong>转移到Cloudflare和部署</strong>了，过程涉及到几个网页的跳转操作，比较复杂，我将它分为几个小节点一步步来。</p>
-<h3 id="h_598475698_6" data-into-catalog-status="">Cloudflare登录</h3>
-<p data-pid="RXFfvzQC">进入<strong><a href="https://link.zhihu.com/?target=https%3A//dash.cloudflare.com/login" class=" wrap external" target="_blank" rel="nofollow noopener noreferrer" data-za-detail-view-id="1043">Cloudflare官网</a></strong>，此处省略注册环节。</p>
-<h3 id="h_598475698_7" data-into-catalog-status="">添加站点、添加DNS解析记录</h3>
-<ul>
-<li data-pid="Nol6ODes">点击<strong>“添加站点”</strong></li>
-<li data-pid="v5WH4dO4">输入自己的域名，点击<strong>“添加站点”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/4971712363242_.pic.jpg" alt="" width="1404" height="1742" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/4971712363242_.pic-xs.jpg 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/4971712363242_.pic-sm.jpg 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/4971712363242_.pic-md.jpg 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/4971712363242_.pic-lg.jpg 1024w"></figure>
-</figure>
-<ul>
-<li data-pid="3rqr30TX">然后跳转到这个界面，选择<strong>“Free”</strong>，点击<strong>“继续”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/4981712363340_.pic-2.jpg" alt="" width="1402" height="832" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/4981712363340_.pic-2-xs.jpg 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/4981712363340_.pic-2-sm.jpg 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/4981712363340_.pic-2-md.jpg 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/4981712363340_.pic-2-lg.jpg 1024w"></figure>
-</figure>
-<ul>
-<li data-pid="mP82lzq5">然后跳转到这个界面，点击<strong>“添加记录”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0830082x.png" alt="" width="1402" height="834" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0830082x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0830082x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0830082x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0830082x-lg.png 1024w"></figure>
-</figure>
-<ul>
-<li data-pid="CaYMpBAf"><strong>类别</strong>选择<strong>“CNAME”，IPv4地址</strong>固定填写<strong>“notion.so”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0830462x.png" alt="" width="1404" height="832" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0830462x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0830462x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0830462x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0830462x-lg.png 1024w"></figure>
-</figure>
-<p class="ztext-empty-paragraph"> </p>
-<ul>
-<li data-pid="os0KZ2l4"><strong>名称</strong>参考以下规则，自己按需填写</li>
-</ul>
-<blockquote data-pid="-NAtg3nA">输入<strong>@</strong>，可以理解为空白，就是原始域名，我的就是litao.fun<br>输入其他，可以理解为前缀，相当于子域名，***.<span class="invisible">http://litao.fun</span></blockquote>
-<p data-pid="BnrTMwfL">（我自己的域名一开始就被误导写了<strong>www</strong>以致于每次访问一定要加上<strong><span class="nolink">https://www</span>.</strong>前缀，所以你只想要简简单单最原始的域名访问地址就直接填@）</p>
-<ul>
-<li data-pid="FIaykBnS">点击<strong>“保存”</strong>，这里就有一条记录了，点击<strong>“继续”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0831132x-2.png" alt="" width="1404" height="824" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0831132x-2-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0831132x-2-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0831132x-2-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0831132x-2-lg.png 1024w"></figure>
-</figure>
-<h3 id="h_598475698_8" data-into-catalog-status="">域名DNS转移</h3>
-<ul>
-<li data-pid="cFqyGjqt">出现这个界面，我们只看<strong>“3.添加Cloudflare名称服务器”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0832032x.png" alt="" width="1402" height="830" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832032x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832032x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832032x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832032x-lg.png 1024w"></figure>
-</figure>
-<ul>
-<li data-pid="mBSVGOrt">回到阿里云域名控制台，点击<strong>“管理”</strong></li>
-</ul>
-<figure data-size="normal"></figure>
-<ul>
-<li data-pid="TUayjc4w">点击<strong>“修改DNS服务器”</strong></li>
-</ul>
-<figure data-size="normal"></figure>
-<figure data-size="normal">
-<div> </div>
-</figure>
-<ul>
-<li data-pid="ert7qjen">选择<strong>“自定义DNS”</strong></li>
-<li data-pid="1P2-UGWh">在Cloudflare<strong>复制粘贴替换</strong>原来的DNS服务器，分别对应一、二行</li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0832282x.png" alt="" width="1406" height="1732" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832282x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832282x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832282x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832282x-lg.png 1024w"></figure>
-</figure>
-<h3 id="h_598475698_9" data-into-catalog-status="">配置Workers</h3>
-<p data-pid="wpo3IeIt">【这里由于账号不能重新创建一次Workers的操作，所以模拟还原演练操作，部分操作截图指引和你们不同，大家重点理解意会文字描述】</p>
-<ul>
-<li data-pid="Psn8x1Q_">回到Cloudflare，点击<strong>添加好的网站</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0832482x.png" alt="" width="1406" height="838" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832482x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832482x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832482x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0832482x-lg.png 1024w"></figure>
-</figure>
-<ul>
-<li data-pid="YXoCciyC">点击左侧导航栏的<strong>“Workers”</strong>，点击<strong>“管理Workers”</strong></li>
-</ul>
-<figure data-size="normal">
-<div>
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0833082x.png" alt="" width="1404" height="826" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833082x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833082x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833082x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833082x-lg.png 1024w"></figure>
-</div>
-<figcaption>还原操作演练，可能你们的界面不同</figcaption>
-</figure>
-<ul>
-<li data-pid="8TOybQl2"><strong>“设置免费的自定义Cloudflare Workers子域”</strong>，（这里操作没有截图）子域名可以随便写（简单几个字母）不影响接下来操作，到时候也可以修改。</li>
-</ul>
-<hr>
-<ul>
-<li data-pid="WcRxOcw3">完成后出现这个界面，继续选择<strong>“Free”</strong>计划</li>
-</ul>
-<figure data-size="normal">
-<div>
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0833302x.png" alt="" width="1408" height="830" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833302x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833302x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833302x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833302x-lg.png 1024w"></figure>
-</div>
-<figcaption>还原操作演练，可能你们的界面不同</figcaption>
-</figure>
-<p data-pid="0xL7lP69">点击<strong>“创建服务”</strong></p>
-<figure data-size="normal">
-<div>
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0833542x.png" alt="" width="1406" height="836" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833542x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833542x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833542x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0833542x-lg.png 1024w"></figure>
-</div>
-<figcaption>还原操作演练，可能你们的界面不同</figcaption>
-</figure>
-<ul>
-<li data-pid="FS_U8L1x"><strong>服务名称</strong>可以跟我一样取<strong>notion</strong>方便后面操作的时候选择服务能认出来，完成点击<strong>“创建服务”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0834112x-2.png" alt="" width="1402" height="834" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0834112x-2-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0834112x-2-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0834112x-2-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0834112x-2-lg.png 1024w"></figure>
-</figure>
-<h3 id="h_598475698_10" data-into-catalog-status="">使用网站生成Workers代码</h3>
-<ul>
-<li data-pid="1-NDoyqf">打开这个网站<strong><a href="https://link.zhihu.com/?target=https%3A//fruition-stephenou.vercel.app/" class=" wrap external" target="_blank" rel="nofollow noopener noreferrer" data-za-detail-view-id="1043">https://fruition-stephenou.vercel.ap</a>（</strong>国外网站，需要<strong><i>科学上网</i></strong>,没有能力的同学也可以去我参考资料的第三篇文章里面找代码自己简单修改<strong><i>）</i></strong></li>
-</ul>
-<blockquote data-pid="VF_tqB8N">第一行：自己的域名（如果一开始<strong>添加DNS记录</strong>你有加<strong>前缀</strong>就要加上，没有就默认原始域名）<br>第二行：Notion分享页面链接</blockquote>
-<ul>
-<li data-pid="xT-9mUik">下面已经生成代码，点击<strong>“COPIED!”</strong>（复制）</li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0835412x.png" alt="" width="1404" height="836" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0835412x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0835412x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0835412x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0835412x-lg.png 1024w"></figure>
-</figure>
-<h3 id="h_598475698_11" data-into-catalog-status="">Workers编辑代码</h3>
-<ul>
-<li data-pid="8wzJoTS5">回到Cloudflare，点击<strong>“Workers”</strong>，点击<strong>“快速编辑”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0836062x.png" alt="" width="1398" height="836" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836062x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836062x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836062x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836062x-lg.png 1024w"></figure>
-</figure>
-<p data-pid="iNRmHDbX">左侧代码区块，Ctrl+A全选删除，刚才复制好的代码Ctrl+V粘贴，然后点击<strong>“保存并部署”</strong></p>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0836292x.png" alt="" width="1148" height="928" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836292x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836292x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836292x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836292x-lg.png 1024w"></figure>
-</figure>
-<h3 id="h_598475698_12" data-into-catalog-status="">添加路由，完成部署！</h3>
-<ul>
-<li data-pid="b9JZLYsw">点击<strong>添加好的网站</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0836452x.png" alt="" width="1406" height="836" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836452x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836452x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836452x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0836452x-lg.png 1024w"></figure>
-</figure>
-<ul>
-<li data-pid="2OuTB3jH">点击<strong>“Workers路由”</strong>，点击<strong>“添加路由”</strong></li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0837022x.png" alt="" width="1404" height="836" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0837022x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0837022x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0837022x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0837022x-lg.png 1024w"></figure>
-</figure>
-<ul>
-<li data-pid="Y8JJdPHC">[前缀]<strong>.</strong>域名<strong>.com/*</strong>（斜杠<strong>/ </strong>星号<strong>*</strong>必须要写）</li>
-<li data-pid="_df66PYZ"><strong>服务</strong>选创建的Workers服务名称（我上面提到的“notion”）</li>
-<li data-pid="L1FEeJ7P"><strong>环境</strong>选production</li>
-</ul>
-<figure data-size="normal">
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/3/WX20240406-0837222x.png" alt="" width="1408" height="836" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0837222x-xs.png 300w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0837222x-sm.png 480w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0837222x-md.png 768w ,https://luguo124.github.io/Publii/media/posts/3/responsive/WX20240406-0837222x-lg.png 1024w"></figure>
-</figure>
-<p data-pid="7gugeiyU">恭喜你完成了所有操作，赶紧试试看使用自己的域名访问到Notion的公开页面吧。</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>关于人生规划</title>
-        <author>
-            <name>li</name>
-        </author>
-        <link href="https://luguo124.github.io/Publii/rensheng.html"/>
-        <id>https://luguo124.github.io/Publii/rensheng.html</id>
-        <media:content url="https://luguo124.github.io/Publii/media/posts/2/photo-1508739773434-c26b3d09e071.jpeg" medium="image" />
-            <category term="日常思考"/>
-
-        <updated>2022-10-13T11:32:00+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://luguo124.github.io/Publii/media/posts/2/photo-1508739773434-c26b3d09e071.jpeg" alt="" />
-                    一、不要把人生规划看的太重要 人生充满极大的偶然性，不要以为你怎么规划的未来就会按照你的规划进行。 这主要是由于未来的不可预测性、当下见识的局限性和内心倾向存在隐藏作用造成的。一来，自身的努力只是一部分，人生际遇的作用有时候更加关键，而这些际遇是无法预测的；二来，我们当前的见识和阅历是有限的，用这些知识根本不足以预测迷雾一般的未来。随着见识的提升，当下的规划在未来都会被打翻；三来，每个人心里都有一些隐藏的情感倾向，无论你当初是从哪条路上出发的，你的人生都会在一次次的选择中逐步向那条特定的道路上转变。虽然殊途，但或许同归。 所以，从某种程度上来说，人生是无法具体规划的。 认识你自己！你喜欢什么？你擅长什么？你的兴趣是什么？你的优势是什么？你是什么性格？什么事情能给你纯粹的快乐？你适合什么样的学习方式？你喜欢什么样的工作？你想要什么？你想做什么样的事情？你想过什么样的生活？…… 这些都是需要好好思考的，认识自己是一生的课题，能想明白这些不容易。人生无法规划，但要有一个大致的方向。另外，在需要做重大选择的时候，这一点会是最重要的参考。 未来无法规划，但有一条是肯定的：机遇只垂青那些有准备的人。提升自己的能力，让自己变得更强大，才能在机遇来临的时候抓住机遇，以不变的努力应万变的未来。 核心竞争力是指那些不限于某一个特定的工作岗位，可以在不同行业自由嫁接的能力。正如罗胖所说，自带信息，不装系统，随时插拔，自由协作。核心竞争力，就是给你自由的能力。 人生中不同阶段不同趣味。在这个大的周期内应当适应时代发展的规律，要坚定不移的在每个阶段中努力并收获。比如大部分人的情况是：在精力充沛的20-30岁的阶段，努力提高自己的能力，积累行业经验；30-40岁的时候，你应该有了家庭，这时候该转型管理岗位，如果前一阶段做得好，这个时候你应该开始学习理财和投资了；40-50岁的时候，这个阶段应当是你最成熟的时候了，此时的你，应当羽翼丰满，极具自信。那么此时作为看官的你是如何规划呢？
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://luguo124.github.io/Publii/media/posts/2/photo-1508739773434-c26b3d09e071.jpeg" class="type:primaryImage" alt="" /></p>
-                <h3>一、<strong>不要把人生规划看的太重要</strong></h3>
-<p>人生充满极大的偶然性，不要以为你怎么规划的未来就会按照你的规划进行。</p>
-<p>这主要是由于未来的不可预测性、当下见识的局限性和内心倾向存在隐藏作用造成的。一来，自身的努力只是一部分，人生际遇的作用有时候更加关键，而这些际遇是无法预测的；二来，我们当前的见识和阅历是有限的，用这些知识根本不足以预测迷雾一般的未来。随着见识的提升，当下的规划在未来都会被打翻；三来，每个人心里都有一些隐藏的情感倾向，无论你当初是从哪条路上出发的，你的人生都会在一次次的选择中逐步向那条特定的道路上转变。虽然殊途，但或许同归。</p>
-<p>所以，从某种程度上来说，人生是无法具体规划的。</p>
-<h3>二、 <strong>从自身和人生愿景两个出发点进行相向规划。</strong></h3>
-<p>认识你自己！你喜欢什么？你擅长什么？你的兴趣是什么？你的优势是什么？你是什么性格？什么事情能给你纯粹的快乐？你适合什么样的学习方式？你喜欢什么样的工作？你想要什么？你想做什么样的事情？你想过什么样的生活？……</p>
-<p>这些都是需要好好思考的，认识自己是一生的课题，能想明白这些不容易。人生无法规划，但要有一个大致的方向。另外，在需要做重大选择的时候，这一点会是最重要的参考。</p>
-<h3>三、<strong>根据这个方向明确自己需要培养的核心竞争力</strong></h3>
-<p>未来无法规划，但有一条是肯定的：机遇只垂青那些有准备的人。提升自己的能力，让自己变得更强大，才能在机遇来临的时候抓住机遇，以不变的努力应万变的未来。</p>
-<p>核心竞争力是指那些不限于某一个特定的工作岗位，可以在不同行业自由嫁接的能力。正如罗胖所说，自带信息，不装系统，随时插拔，自由协作。核心竞争力，就是给你自由的能力。</p>
-<h3>四、<strong>阶段性人生</strong></h3>
-<p>人生中不同阶段不同趣味。在这个大的周期内应当适应时代发展的规律，要坚定不移的在每个阶段中努力并收获。比如大部分人的情况是：在精力充沛的20-30岁的阶段，努力提高自己的能力，积累行业经验；30-40岁的时候，你应该有了家庭，这时候该转型管理岗位，如果前一阶段做得好，这个时候你应该开始学习理财和投资了；40-50岁的时候，这个阶段应当是你最成熟的时候了，此时的你，应当羽翼丰满，极具自信。那么此时作为看官的你是如何规划呢？</p>
-<p><!-- notionvc: f551d6df-5b1f-4254-99bb-d10ffb58694b --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>关于体验工作坊在团队内推动落地</title>
-        <author>
-            <name>li</name>
-        </author>
-        <link href="https://luguo124.github.io/Publii/gongzuofang.html"/>
-        <id>https://luguo124.github.io/Publii/gongzuofang.html</id>
-        <media:content url="https://luguo124.github.io/Publii/media/posts/1/She-Ji-Chong-Ci-02.jpg" medium="image" />
-            <category term="工作记录"/>
-
-        <updated>2018-05-10T11:31:00+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://luguo124.github.io/Publii/media/posts/1/She-Ji-Chong-Ci-02.jpg" alt="" />
-                    关于设计体验工作坊这个想法源于春节前夕，最初的想法是在公司产品部内部形成我们自己的产品设计方法，并最终能形成标准化流程在集团内部推广，并运用到公司现有产品的迭代中。 从想法产生到最终设计落地，历时两个月，当然真正开始做这个事也就一个月的时间，期间还要兼顾公司产品的上线支持。 在团队内推动体验工作坊，源于公司线上产品问题较多，各部门配合流程较长，问题及需求反馈滞后等原因。 团队内部迫切需要一种能够快速获得产品有效问题，高效迭代的方式。 于是通过了解和学习，我们希望将“设计冲刺”的工作坊形式，运用到产品迭代需求中，于是最终产生此需求。 《设计冲刺》一书由 [美] 杰克·纳普 / [美] 约翰·泽拉茨基/ [美]&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://luguo124.github.io/Publii/media/posts/1/She-Ji-Chong-Ci-02.jpg" class="type:primaryImage" alt="" /></p>
-                <p>关于设计体验工作坊这个想法源于春节前夕，最初的想法是在公司产品部内部形成我们自己的产品设计方法，并最终能形成标准化流程在集团内部推广，并运用到公司现有产品的迭代中。</p>
-<blockquote>
-<p>从想法产生到最终设计落地，历时两个月，当然真正开始做这个事也就一个月的时间，期间还要兼顾公司产品的上线支持。</p>
-</blockquote>
-<p>在团队内推动体验工作坊，源于公司线上产品问题较多，各部门配合流程较长，问题及需求反馈滞后等原因。</p>
-<p>团队内部迫切需要一种能够快速获得产品有效问题，高效迭代的方式。</p>
-<p>于是通过了解和学习，我们希望将“设计冲刺”的工作坊形式，运用到产品迭代需求中，于是最终产生此需求。</p>
-<h2>1.第一阶段：深入学习和了解工作坊（Workshop）的形式及流程</h2>
-<figure class="post__image"><img loading="lazy"  src="https://luguo124.github.io/Publii/media/posts/1/18d8bc3eb13533fa359e565aa0d3fd1f41345b9e-2.jpeg" alt="" width="2604" height="2604" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://luguo124.github.io/Publii/media/posts/1/responsive/18d8bc3eb13533fa359e565aa0d3fd1f41345b9e-2-xs.jpeg 300w ,https://luguo124.github.io/Publii/media/posts/1/responsive/18d8bc3eb13533fa359e565aa0d3fd1f41345b9e-2-sm.jpeg 480w ,https://luguo124.github.io/Publii/media/posts/1/responsive/18d8bc3eb13533fa359e565aa0d3fd1f41345b9e-2-md.jpeg 768w ,https://luguo124.github.io/Publii/media/posts/1/responsive/18d8bc3eb13533fa359e565aa0d3fd1f41345b9e-2-lg.jpeg 1024w"></figure>
-<pre>《设计冲刺》一书由 [美] 杰克·纳普 / [美] 约翰·泽拉茨基/ [美] 布拉登·科维茨等所著<!-- notionvc: fdffd9ab-ffb2-4622-b258-356cd743e6d7 --></pre>
-<p>设计冲刺可以说是一部自己动手的指南，引导你实施自己的设计冲刺，从而解决迫在眉睫的商业难题。</p>
-<p>设计冲刺的主要流程分为五步，分别是：</p>
-<p>一.描述问题，选出集中解决的着力点</p>
-<p>二.在纸上列出所有备选方案</p>
-<p>三.做出艰难的抉择，并将选中的方案转化为可测试的猜想</p>
-<p>四.制作真实的原型</p>
-<p>五.进行真人测试</p>
-<p><!-- notionvc: 6071e824-e638-4f84-a790-02069b779f21 --></p>
-<h2>2.第二阶段：当了解了工作坊的具体形式后，开始着手设计我们自己的工作坊（Workshop）</h2>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-3ebb227652a05182.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="用户体验旅程" data-is-external-image="true"></p>
-<p>用户体验旅程</p>
-<p>我将工作坊设计为六个环节</p>
-<h3>步骤1：用户访谈</h3>
-<p>以小组形式进行用户访谈：</p>
-<p>1.熟悉用户借款流程</p>
-<p>2.了解用户使用感受</p>
-<p>3.发现用户使用时遇到的问题</p>
-<h3>步骤2：用户画像</h3>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-40d42e558da89cdd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="用户画像" data-is-external-image="true"></p>
-<p>用户画像</p>
-<p>从五个维度建立用户画像，以确定产品用户群体</p>
-<h3>步骤3：体验地图</h3>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-164db3c8278179c3.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="体验地图" data-is-external-image="true"></p>
-<p>体验地图</p>
-<p>1.把用户在与我们设计相关的场景中，可能发生的行为整理列出</p>
-<p>2.根据之前的小组讨论，观察用户，用户访谈等等，我们获取了大量用户借款时遇到的问题和惊喜。</p>
-<p>把所有问题和惊喜写在便利贴上。问题放在下方，惊喜放在上方。</p>
-<p>3.将相应的问题和惊喜点，贴到对应的环节，注意当时的情绪</p>
-<p>4.根据「问题」的感受等级情况，判断每个行为节点的情绪波动，并连线。</p>
-<p>注意：此时要基于用户角色，问自己这个用户角色对这个问题的在意程度有多少？</p>
-<p>当一个行为节点可能产生两个结果，比如高兴或不高兴，优先考虑不高兴的情况。</p>
-<h3>步骤4：解决痛点（痛点分析）</h3>
-<p>1.通过体验旅程的场景步骤，根据问题和情绪。筛选并找出用户痛点</p>
-<p>2.根据用户痛点，提出解决方案，并对方案进行筛选。筛选方法从三个维度进行考量</p>
-<p>新颖：是否有提出过类似的设计构想？如提出？为何没有使用此方案？</p>
-<p>实用：这个设计真的能解决问题？是否有更优解决方案？</p>
-<p>可行：现阶段资源是否可实现？实现难度？优先级别？</p>
-<h3>步骤5：故事版（原型设计）</h3>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-4020448614aa2978.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="原型草图" data-is-external-image="true"></p>
-<p>原型草图</p>
-<p>小组将设计原型草绘于纸上，并在小组内沟通。</p>
-<h3>步骤6：用户测试（故事版或原型讲演）</h3>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-f9253a533bc34bb4.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="原型讲演" data-is-external-image="true"></p>
-<p>原型讲演</p>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-1b879660c31aeac4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/format/webp" alt="社会人要露脸。。。" data-is-external-image="true"></p>
-<p>社会人要露脸。。。</p>
-<p>以小组为单位对他们的设计进行演示，并接受其他小组的提问。考量他们设计的全面性以及普遍性。</p>
-<p>最终将环节串联，输出成活动流程</p>
-<h2>3.第三阶段：内部测试可行性</h2>
-<p>先小范围测试整个流程设计的合理性，组织团队内部人员开展一次活动，并记录问题及冷场或偏离方向的情况。收集这些问题以便对流程进行修改。</p>
-<h2>4.第四阶段：调整修改</h2>
-<p>根据测试时的问题及突发状况完善流程设计，以及PPT优化，包含PPT美化，破冰游戏优化，主持人串词优化等。</p>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-234c56a7606f1c64.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="破冰游戏" data-is-external-image="true"></p>
-<p>破冰游戏</p>
-<h2>5.第五阶段：工作坊推动落地</h2>
-<p>以借款端产品为案例，引导组织一场工作坊活动，并最终输出设计一款产品。</p>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-7d51d723b52a3416.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="成果讲演" data-is-external-image="true"></p>
-<p>成果讲演</p>
-<h2>6.第六阶段：成果梳理</h2>
-<p>工作坊结束后，根据工作坊中产生的问题和各小组输出的结果，整理汇总。并输出问题汇总表，同时提出解决方案或方向。</p>
-<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/6051772-d6ee9ba27ad6e6f3.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="用户体验旅程" data-is-external-image="true"></p>
-<p>用户体验旅程</p>
-<h2>活动总结：</h2>
-<p>由于是第一次在团队内部设计工具和方法，难免有点青涩。而且由于没有经验，活动中遇到各种不可预知的问题。例如：方向偏离，团队陷入讨论与争执中无法输出结果，最终产品设计方向偏离等。</p>
-<p>同时发现，从0到1设计产品和从1到1.5优化产品是完全不同。完全嵌套设计冲刺中对于产品设计的流程是不适用，曾一度怀疑此方法是否适用于产品迭代需求。最终通过实践发现还是适用的。</p>
-<p>通过此次工作坊活动，重新认识和了解到产品设计和用户真实需求有时是不同步的，我们经常会以用户的身份去假定某个需求，并最终设计出来。却并未思考过也许这个需求可能是伪需求。导致最终设计的产品是我们自嗨形成的产物，最终发现是需求本身的问题，浪费了大量的人力物力。而工作坊的形式虽然不能完全代表用户的真实情况，至少给我们的产品设计提出了全新的观察角度，在一定程度上可以纠正我们形成自嗨的状态。</p>
-<p><span style="color: #e67e23;">当然本次活动还有很多细节有点完善，此次只是针对活动流程进行一个描述和总结。</span></p>
-<p><!-- notionvc: f26cdc70-2f9f-4ffa-98a2-b68084b5a5f7 --></p>
             ]]>
         </content>
     </entry>
