@@ -3,7 +3,7 @@
     <title>li blog</title>
     <link href="https://luguo124.github.io/Publii/feed.xml" rel="self" />
     <link href="https://luguo124.github.io/Publii" />
-    <updated>2025-09-08T16:31:03+08:00</updated>
+    <updated>2025-09-08T16:35:55+08:00</updated>
     <author>
         <name>li</name>
     </author>
@@ -34,26 +34,26 @@
 <div class="lwptoc_header"><strong class="lwptoc_title">Contents</strong> <span class="lwptoc_toggle"> <a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#" class="lwptoc_toggle_label" data-label="show">hide</a> </span></div>
 <div class="lwptoc_items lwptoc_items-visible">
 <div class="lwptoc_itemWrap">
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#an_zhuang" rel="nofollow"><span class="lwptoc_item_number">1</span> <span class="lwptoc_item_label">安装</span></a>
+<div class="lwptoc_item"><span class="lwptoc_item_number">1</span> <span class="lwptoc_item_label">安装</span>
 <div class="lwptoc_itemWrap">
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#DB_zhun_bei" rel="nofollow"><span class="lwptoc_item_number">1.1</span> <span class="lwptoc_item_label">DB准备</span></a></div>
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#an_zhuang_zhu_yi_shi_xiang" rel="nofollow"><span class="lwptoc_item_number">1.2</span> <span class="lwptoc_item_label">安装注意事项</span></a></div>
+<div class="lwptoc_item"><span class="lwptoc_item_number">1.1</span> <span class="lwptoc_item_label">DB准备</span></div>
+<div class="lwptoc_item"><span class="lwptoc_item_number">1.2</span> <span class="lwptoc_item_label">安装注意事项</span></div>
 </div>
 </div>
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#pei_zhicustomsettingsjson" rel="nofollow"><span class="lwptoc_item_number">2</span> <span class="lwptoc_item_label">配置customsettings.json</span></a>
+<div class="lwptoc_item"><span class="lwptoc_item_number">2</span> <span class="lwptoc_item_label">配置customsettings.json</span>
 <div class="lwptoc_itemWrap">
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#chang_jian_hui_diao_zheng_zi_duan" rel="nofollow"><span class="lwptoc_item_number">2.1</span> <span class="lwptoc_item_label">常见会调整字段</span></a></div>
+<div class="lwptoc_item"><span class="lwptoc_item_number">2.1</span> <span class="lwptoc_item_label">常见会调整字段</span></div>
 </div>
 </div>
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#qi_ta_pei_zhi" rel="nofollow"><span class="lwptoc_item_number">3</span> <span class="lwptoc_item_label">其他配置</span></a>
+<div class="lwptoc_item"><span class="lwptoc_item_number">3</span> <span class="lwptoc_item_label">其他配置</span>
 <div class="lwptoc_itemWrap">
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#deng_lu_ye_mian_biao_ti_yuLogo_xiu_gai" rel="nofollow"><span class="lwptoc_item_number">3.1</span> <span class="lwptoc_item_label">登录页面标题与Logo修改</span></a></div>
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#pei_zhiSMTP" rel="nofollow"><span class="lwptoc_item_number">3.2</span> <span class="lwptoc_item_label">配置SMTP</span></a></div>
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#xiu_gai_shi_yong_ri_qi" rel="nofollow"><span class="lwptoc_item_number">3.3</span> <span class="lwptoc_item_label">修改试用日期</span></a></div>
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#ri_zhi_wen_jian" rel="nofollow"><span class="lwptoc_item_number">3.4</span> <span class="lwptoc_item_label">日志文件</span></a></div>
+<div class="lwptoc_item"><span class="lwptoc_item_number">3.1</span> <span class="lwptoc_item_label">登录页面标题与Logo修改</span></div>
+<div class="lwptoc_item"><span class="lwptoc_item_number">3.2</span> <span class="lwptoc_item_label">配置SMTP</span></div>
+<div class="lwptoc_item"><span class="lwptoc_item_number">3.3</span> <span class="lwptoc_item_label">修改试用日期</span></div>
+<div class="lwptoc_item"><span class="lwptoc_item_number">3.4</span> <span class="lwptoc_item_label">日志文件</span></div>
 </div>
 </div>
-<div class="lwptoc_item"><a href="https://t725.cn/post/%E4%B8%80%E5%8F%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8windows%E7%AF%87_03_axure-cloud-for-on-premises-service/#Axure_RP_1011_ben_de_ji_huo" rel="nofollow"><span class="lwptoc_item_number">4</span> <span class="lwptoc_item_label">Axure RP 10/11 本地激活</span></a></div>
+<div class="lwptoc_item"><span class="lwptoc_item_number">4</span> <span class="lwptoc_item_label">Axure RP 10/11 本地激活</span></div>
 </div>
 </div>
 </div>
