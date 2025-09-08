@@ -3,7 +3,7 @@
     <title>li blog</title>
     <link href="https://luguo124.github.io/Publii/feed.xml" rel="self" />
     <link href="https://luguo124.github.io/Publii" />
-    <updated>2025-09-08T14:11:34+08:00</updated>
+    <updated>2025-09-08T14:18:04+08:00</updated>
     <author>
         <name>li</name>
     </author>
@@ -16,16 +16,19 @@
         </author>
         <link href="https://luguo124.github.io/Publii/xxxapp-yi-sun-piwu-fa-da-kaini-ying-gai-jiang-ta-yi-dao-fei-zhi-louda-bu-kai-xxxyin-wei-ta-lai-zi-shen-fen-bu-ming-de-kai-fa-zhe-jie-jue-fang-fa.html"/>
         <id>https://luguo124.github.io/Publii/xxxapp-yi-sun-piwu-fa-da-kaini-ying-gai-jiang-ta-yi-dao-fei-zhi-louda-bu-kai-xxxyin-wei-ta-lai-zi-shen-fen-bu-ming-de-kai-fa-zhe-jie-jue-fang-fa.html</id>
+        <media:content url="https://luguo124.github.io/Publii/media/posts/8/Install.appYi-Sun-Pi.webp" medium="image" />
             <category term="学习笔记"/>
 
         <updated>2025-09-08T14:11:34+08:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://luguo124.github.io/Publii/media/posts/8/Install.appYi-Sun-Pi.webp" alt="" />
                     刚用 macOS 的小伙伴或者在更新某个系统版本后运行 App 会提示提示【xxx已损坏，无法打开，你应该将它移到废纸篓解决办法】、【打不开 xxx，因为它来自身份不明的开发者】，【打不开xxxx，因为 Apple 无法检查其是否包含恶意软件】下边下面就教大家如何修复。 常见的三种报错 xxx已损坏，无法打开，你应该将它移到废纸篓解决办法 打不开 xxx，因为它来自身份不明的开发者&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://luguo124.github.io/Publii/media/posts/8/Install.appYi-Sun-Pi.webp" class="type:primaryImage" alt="" /></p>
                 <div class="editor_js--paragraph editor_js--paragraph__align-left">刚用 macOS 的小伙伴或者在更新某个系统版本后运行 App 会提示提示【xxx已损坏，无法打开，你应该将它移到废纸篓解决办法】、【打不开 xxx，因为它来自身份不明的开发者】，【打不开xxxx，因为 Apple 无法检查其是否包含恶意软件】下边下面就教大家如何修复。</div>
 <h2 id="header-0" class="editor_js--header">常见的三种报错</h2>
 <ul class="editor_js--list">
@@ -148,16 +151,19 @@
         </author>
         <link href="https://luguo124.github.io/Publii/sipxi-tong-wan-zheng-xing-bao-hu-zen-me-jin-yong.html"/>
         <id>https://luguo124.github.io/Publii/sipxi-tong-wan-zheng-xing-bao-hu-zen-me-jin-yong.html</id>
+        <media:content url="https://luguo124.github.io/Publii/media/posts/7/SIPXi-Tong-Wan-Zheng-Xing.png" medium="image" />
             <category term="学习笔记"/>
 
         <updated>2025-09-08T14:08:20+08:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://luguo124.github.io/Publii/media/posts/7/SIPXi-Tong-Wan-Zheng-Xing.png" alt="" />
                     SIP系统完整性保护怎么禁用？SIP系统完整性关闭方法 许多Mac用户反应，装了部分软件后打不开，那可能是sip系统完整性没有关闭。下面我们就来看一下如何关闭sip系统完整性。 系统完整性保护是 OS X El Capitan 及更高版本所采用的一项安全技术，能够帮助防止潜在恶意软件修改 Mac 上受保护的文件和文件夹。系统完整性保护可以限制 root 用户帐户，以及&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://luguo124.github.io/Publii/media/posts/7/SIPXi-Tong-Wan-Zheng-Xing.png" class="type:primaryImage" alt="" /></p>
                 <div class="col-lg-9 template--guide-card-body__column">
 <p class="mb-0 mb-4 mt-1 template--guide-card-body__column--text">SIP系统完整性保护怎么禁用？SIP系统完整性关闭方法</p>
 <div id="content" class="scrollspy mb-4">
